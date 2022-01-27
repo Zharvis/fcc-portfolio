@@ -1,0 +1,12 @@
+.projects-container {
+  margin: 4rem;
+}
+
+.project-tile {
+  background-color: var(--secondary-bg-color);
+  &:not(&:last-child) {
+    margin-right: 3rem;
+  }
+  height: auto;
+  padding: 3rem;
+}

@@ -1,0 +1,29 @@
+:root {
+  // body font size
+  --text-base-size: 1rem;
+
+  // type scale
+  --text-scale-ratio: 1.2;
+  --text-xs: calc((1em / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-s: calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-m: calc(
+    var(--text-s) * var(--text-scale-ratio) * var(--text-scale-ratio)
+  );
+  --text-l: calc(var(--text-m) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-l) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+  --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+
+  // color
+  --primary-bg-color: white;
+  --secondary-bg-color: rgb(231, 231, 231);
+  --accent-color: blue;
+
+  // navbar dimensions
+  --navbar-height: 4rem;
+  --navbar-margin: 0rem;
+
+  // font
+  --primary-font-color: black;
+  --primary-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
