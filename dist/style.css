@@ -1,7 +1,7 @@
 :root {
   --text-base-size: 1rem;
   --text-scale-ratio: 1.2;
-  --text-xs: calc((1em / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-xs: calc((1rem / var(--text-scale-ratio)) / var(--text-scale-ratio));
   --text-s: calc(var(--text-xs) * var(--text-scale-ratio));
   --text-m: calc(
     var(--text-s) * var(--text-scale-ratio) * var(--text-scale-ratio)
@@ -113,16 +113,12 @@ main {
   text-decoration: none;
   margin: 0rem 1.5rem;
   padding: 0.45rem 0.65rem;
-  border-radius: 3rem;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .navbar ul a:hover, .navbar ul a:focus {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  color: white;
-  background-color: black;
+  font-size: 1.5rem;
 }
 
 .hero {
