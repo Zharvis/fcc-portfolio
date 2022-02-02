@@ -4,7 +4,7 @@
 
   // type scale
   --text-scale-ratio: 1.2;
-  --text-xs: calc((1em / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-xs: calc((1rem / var(--text-scale-ratio)) / var(--text-scale-ratio));
   --text-s: calc(var(--text-xs) * var(--text-scale-ratio));
   --text-m: calc(
     var(--text-s) * var(--text-scale-ratio) * var(--text-scale-ratio)
